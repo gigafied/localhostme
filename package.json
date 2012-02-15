@@ -1,0 +1,22 @@
+{
+  "author": "Taka Kojima <taka@gigafied.com>",
+  "name": "localhostme",
+  "main" : "./localhostme.js",
+  "bin" : {
+    "localhostme" : "./localhostme.js"
+  },
+  "description": "Map your cwd to localhost:port",
+  "version": "1.0.0",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/gigafied/localhostme.git"
+  },
+  "engines": {
+    "node": ">=0.6.x"
+  },
+  "dependencies": {
+    "connect" : "1.8.x"
+  },
+  "preferGlobal" : true,
+  "devDependencies": {}
+}
